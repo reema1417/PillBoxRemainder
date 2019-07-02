@@ -23,6 +23,12 @@ public class StartInterface extends AppCompatActivity {
         signUpB = (Button) findViewById(R.id.sign_up_button);
         backArrow = (Button) findViewById(R.id.backarrow2);
 
+        signUpB.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(StartInterface.this, SignUp.class));
+            }
+        });
 
         signInB.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
     android:background="@drawable/interfacemain"
     tools:context="com.example.android.pillboxremainder.MainActivity">
     <Button
@@ -24,11 +22,13 @@
         android:padding="10dp"
         android:background="@drawable/buttons"
         android:textColor="#ffffff"
-        android:text="تسجيل الدخول"
-        android:textSize="20dp"
-        android:layout_marginBottom="117dp"
+        android:text="@string/sign_in_main"
+        android:textSize="20sp"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="170dp"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="0dp" />
     <Button
         android:id="@+id/sign_up_button"
         android:layout_width="150dp"
@@ -36,9 +36,11 @@
         android:padding="10dp"
         android:background="@drawable/buttons"
         android:textColor="#ffffff"
-        android:text="تسجيل جديد"
-        android:textSize="20dp"
-        android:layout_marginBottom="50dp"
+        android:text="@string/sign_up_main"
+        android:textSize="20sp"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="90dp"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="0dp" />
 </RelativeLayout>

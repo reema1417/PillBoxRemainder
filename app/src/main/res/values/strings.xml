@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">PillBoxRemainder</string>
+    <string name="sign_up_name">الاسم</string>
+    <string name="sign_up_email">الإيميل</string>
+    <string name="sign_up_password">الرقم السري</string>
+    <string name="sign_up_main">تسجيل جديد</string>
+    <string name="sign_in_main">تسجيل الدخول</string>
+    <string name="sign_up">تسجيل</string>
 </resources>
