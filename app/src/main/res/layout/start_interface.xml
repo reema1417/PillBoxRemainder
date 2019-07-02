@@ -29,6 +29,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginLeft="0dp" />
+
     <Button
         android:id="@+id/sign_up_button"
         android:layout_width="150dp"
