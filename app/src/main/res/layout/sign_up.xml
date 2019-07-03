@@ -32,6 +32,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
     <EditText
+        android:id="@+id/Username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/sign_up_name"
@@ -40,6 +41,7 @@
         android:theme="@style/MyEditText"/>
 
     <EditText
+        android:id="@+id/Email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/sign_up_email"
@@ -56,6 +58,7 @@
         app:passwordToggleEnabled="true">
 
         <EditText
+            android:id="@+id/Password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
